@@ -116,9 +116,7 @@ def make_prediction(model, preprocessor, input_df, explainer, lime_explainer):
         st.error(f"Error occurred during prediction: {str(e)}. Please contact support.")
         return None, None, None, None, None
     
-# Display logo and hero image
-st.sidebar.image('images/logo.jpg', width=100)
-st.image('images/people.jpg', use_container_width=True)
+
 
 st.title('Cebu Pacific Customer Flight Satisfaction')
 st.header('Please Tell Us About Your Experience')
